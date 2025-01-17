@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/amrithanayar/IdeaProjects/cats-learning/src/main/scala/part2AbstractMath/Functors.scala:36:66: ')' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  def do10x[F[_]](container: F[Int])(implicit functor: Functor[F]: F[Int] = functor.map(container)(_ *10)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amrithanayar/IdeaProjects/cats-learning/src/main/scala/part2AbstractMath/Functors.scala:40:3: ';' expected but 'def' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  def main(args: Array[String]): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

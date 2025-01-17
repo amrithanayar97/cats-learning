@@ -1,56 +1,47 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/Users/amrithanayar/IdeaProjects/cats-learning/src/main/scala/part2AbstractMath/Monoids.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/Users/amrithanayar/IdeaProjects/cats-learning/src/main/scala/part2AbstractMath/Semigroups.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/Users/amrithanayar/IdeaProjects/cats-learning/src/main/scala/part2AbstractMath/Monads.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(part2AbstractMath.Semigroups.Expense, part2AbstractMath.Semigroups)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(part2AbstractMath.Monads)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(part2AbstractMath.Semigroups.Expense, part2AbstractMath.Semigroups)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/amrithanayar/IdeaProjects/cats-learning/src/main/scala/part2AbstractMath/Monoids.scala, /Users/amrithanayar/IdeaProjects/cats-learning/src/main/scala/part2AbstractMath/Semigroups.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: part2AbstractMath.Semigroups.Expense, part2AbstractMath.Semigroups[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /Users/amrithanayar/IdeaProjects/cats-learning/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(part2AbstractMath.Monads)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/amrithanayar/IdeaProjects/cats-learning/src/main/scala/part2AbstractMath/Monads.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: part2AbstractMath.Monads[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/amrithanayar/IdeaProjects/cats-learning/target/scala-2.13/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.3.5:compile for Scala 2.13.3[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.3.5:compile for Scala 2.13.3[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3a4f1217 for Scala compiler version 2.13.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5e75ad34 for Scala compiler version 2.13.3[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-language:higherKinds[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/amrithanayar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/amrithanayar/IdeaProjects/cats-learning/target/scala-2.13/classes:/Users/amrithanayar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.1.1/cats-core_2.13-2.1.1.jar:/Users/amrithanayar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.1.1/cats-macros_2.13-2.1.1.jar:/Users/amrithanayar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.1.1/cats-kernel_2.13-2.1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.066066125 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.331043458 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from part2AbstractMath.Semigroups...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: part2AbstractMath.Semigroups[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(part2AbstractMath.Semigroups)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(part2AbstractMath.Semigroups,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The part2AbstractMath.Semigroups has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(part2AbstractMath.Semigroups)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from part2AbstractMath.Monads...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: part2AbstractMath.Monads[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(part2AbstractMath.Monads)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(part2AbstractMath.Monads,ModifiedNames(changes = UsedName(getPairsOption,[Default]), UsedName(getPairsList,[Default]), UsedName(aFuture,[Default]), UsedName(optionMonad,[Default]), UsedName(MyMonad,[Default]), UsedName(anOption,[Default]), UsedName(ec,[Implicit]), UsedName(getPairs,[Default]), UsedName(charFuture,[Default]), UsedName(aTransformedOption,[Default]), UsedName(aList,[Default]), UsedName(aTransformedList,[Default]), UsedName(comboFuture,[Default]), UsedName(numberOption,[Default]), UsedName(aTransformedFuture,[Default]), UsedName(numberFuture,[Default]), UsedName(listMonad,[Default]), UsedName(charOption,[Default]), UsedName(futureMonad,[Default]), UsedName(allOption,[Default]))) invalidates 1 classes due to The part2AbstractMath.Monads has the following implicit definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(ec,[Implicit]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(part2AbstractMath.Monads)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from part2AbstractMath.Monoids.ShoppingCart...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: part2AbstractMath.Monoids.ShoppingCart[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(part2AbstractMath.Monoids.ShoppingCart)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(part2AbstractMath.Monoids.ShoppingCart,ModifiedNames(changes = UsedName(productIterator,[Default]), UsedName(==,[Default]), UsedName(clone,[Default]), UsedName(canEqual,[Default]), UsedName(items,[Default]), UsedName(curried,[Default]), UsedName(ShoppingCart,[Default]), UsedName(apply,[Default]), UsedName(!=,[Default]), UsedName(total,[Default]), UsedName($init$,[Default]), UsedName(productPrefix,[Default]), UsedName(notifyAll,[Default]), UsedName(productArity,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(tupled,[Default]), UsedName(copy$default$1,[Default]), UsedName(hashCode,[Default]), UsedName(synchronized,[Default]), UsedName(unapply,[Default]), UsedName(copy$default$2,[Default]), UsedName(productElementNames,[Default]), UsedName(part2AbstractMath;Monoids;ShoppingCart;init;,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(asInstanceOf,[Default]), UsedName(copy,[Default]), UsedName(productElementName,[Default]), UsedName(ne,[Default]), UsedName(notify,[Default]), UsedName(equals,[Default]), UsedName(eq,[Default]), UsedName(productElement,[Default]), UsedName(finalize,[Default]))) invalidates 1 classes due to The part2AbstractMath.Monoids.ShoppingCart has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(productIterator,[Default]), UsedName(==,[Default]), UsedName(clone,[Default]), UsedName(canEqual,[Default]), UsedName(items,[Default]), UsedName(curried,[Default]), UsedName(ShoppingCart,[Default]), UsedName(apply,[Default]), UsedName(!=,[Default]), UsedName(total,[Default]), UsedName($init$,[Default]), UsedName(productPrefix,[Default]), UsedName(notifyAll,[Default]), UsedName(productArity,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(tupled,[Default]), UsedName(copy$default$1,[Default]), UsedName(hashCode,[Default]), UsedName(synchronized,[Default]), UsedName(unapply,[Default]), UsedName(copy$default$2,[Default]), UsedName(productElementNames,[Default]), UsedName(part2AbstractMath;Monoids;ShoppingCart;init;,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(asInstanceOf,[Default]), UsedName(copy,[Default]), UsedName(productElementName,[Default]), UsedName(ne,[Default]), UsedName(notify,[Default]), UsedName(equals,[Default]), UsedName(eq,[Default]), UsedName(productElement,[Default]), UsedName(finalize,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(part2AbstractMath.Monoids.ShoppingCart)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from part2AbstractMath.Monoids...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: part2AbstractMath.Monoids[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(part2AbstractMath.Monoids)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(part2AbstractMath.Monoids,ModifiedNames(changes = UsedName(==,[Default]), UsedName(combineFold,[Default]), UsedName(numbers,[Default]), UsedName(clone,[Default]), UsedName(main,[Default]), UsedName(emptyString,[Default]), UsedName(combineString,[Default]), UsedName(ShoppingCart,[Default]), UsedName(sumLeft,[Default]), UsedName(combineInt,[Default]), UsedName(checkout,[Default]), UsedName(!=,[Default]), UsedName(zero,[Default]), UsedName(shoppingCartMonoid,[Implicit]), UsedName(emptyOption,[Default]), UsedName(Monoids,[Default]), UsedName(notifyAll,[Default]), UsedName(combinedOptionFancy,[Default]), UsedName(wait,[Default]), UsedName(massivePhonebook,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(phonebooks,[Default]), UsedName(hashCode,[Default]), UsedName(synchronized,[Default]), UsedName(combineOption,[Default]), UsedName(intMonoid,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(asInstanceOf,[Default]), UsedName(sumRight,[Default]), UsedName(ne,[Default]), UsedName(notify,[Default]), UsedName(equals,[Default]), UsedName(eq,[Default]), UsedName(finalize,[Default]))) invalidates 1 classes due to The part2AbstractMath.Monoids has the following implicit definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(shoppingCartMonoid,[Implicit]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(part2AbstractMath.Monoids)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from part2AbstractMath.Monads.MyMonad...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: part2AbstractMath.Monads.MyMonad[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(part2AbstractMath.Monads.MyMonad)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(part2AbstractMath.Monads.MyMonad,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(MyMonad,[Default]), UsedName(asInstanceOf,[Default]), UsedName(notify,[Default]), UsedName(==,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(finalize,[Default]), UsedName(equals,[Default]), UsedName(##,[Default]), UsedName(hashCode,[Default]), UsedName(synchronized,[Default]), UsedName(getClass,[Default]), UsedName(flatMap,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]), UsedName(pure,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]))) invalidates 1 classes due to The part2AbstractMath.Monads.MyMonad has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(MyMonad,[Default]), UsedName(asInstanceOf,[Default]), UsedName(notify,[Default]), UsedName(==,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(finalize,[Default]), UsedName(equals,[Default]), UsedName(##,[Default]), UsedName(hashCode,[Default]), UsedName(synchronized,[Default]), UsedName(getClass,[Default]), UsedName(flatMap,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]), UsedName(pure,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(part2AbstractMath.Monads.MyMonad)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m        [0m
